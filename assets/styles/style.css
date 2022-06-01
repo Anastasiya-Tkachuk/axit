@@ -6,8 +6,8 @@
     margin: 0;
     padding: 0;
 }
-.content {
-    padding: 15px;
+.awesome {
+    padding: 0 15px;
     max-width: calc(1170px+15px*2);
     max-width: 0 auto;
     width: 100%;
