@@ -1,14 +1,13 @@
-@import url(./awesome.css);
+@import url(./pricing.css);
 @import url(../fonts/font.css);
-
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 .content {
-    padding: 15px;
-    max-width: calc(1170px+15px*2);
-    max-width: 0 auto;
+    max-width: calc(1170px + 15px * 2);
+	padding: 0 15px;
+	margin: 0 auto;
     width: 100%;
 }
