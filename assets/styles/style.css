@@ -1,0 +1,13 @@
+@import url(./banner.css);
+@import url(../fonts/font.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content {
+    max-width: calc(1170px + 2 * 15px);
+    padding: 0 15px;
+    margin: 0 auto;
+}
