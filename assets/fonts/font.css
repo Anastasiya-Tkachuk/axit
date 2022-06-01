@@ -1,6 +1,5 @@
 @font-face {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    src: url(OpenSans-Bold.ttf);
-    src: url(./Raleway-Regular.ttf)
+    font-family: "OpenSans", sans-serif, "Raleway", sans-serif;
+    src: url(./OpenSans-SemiBold.ttf);
+    src: url(./Raleway-Regular.ttf);
 }
