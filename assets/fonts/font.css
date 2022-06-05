@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-
-=======
 @font-face {
-    font-family: "OpenSans", sans-serif, "Raleway", sans-serif;
+    font-family: "OpenSans", sans-serif;
+    font-family: "Raleway", sans-serif;
+    src: url(./OpenSans-Regular.ttf);
     src: url(./OpenSans-SemiBold.ttf);
-    src: url(./Raleway-Regular.ttf);
+    src: url(./Raleway-Regular.ttf)
 }
->>>>>>> c911191df9cd086394342ffa303c82cc83a58559
