@@ -1,0 +1,30 @@
+.footer {
+    height: 164px;
+    width: 100%;
+    background-color: #000000;
+}
+.footer--icons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.footer--icons > a {
+padding: 41px 45px 32px 0px;
+display: flex;
+justify-content: space-between;
+}
+.footer--icons > a:last-child {
+    padding: 41px 0 32px 0;
+}
+.footer--icons + p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    justify-content: center;
+}
