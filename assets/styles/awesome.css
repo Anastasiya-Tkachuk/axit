@@ -44,7 +44,8 @@
     }
     
     .awesome-icons {
-    width: 1170px;
+    display: flex;
+    justify-content: space-between;
     padding: 0 15px;
     margin: 0 auto;
     }
