@@ -1,5 +1,5 @@
 .contact {
-    padding: 107px 170px 50px;
+    padding: 107px 0 50px;
 }
 .contact--title {
     font-family: 'Raleway';
@@ -30,12 +30,12 @@
     justify-content: center;
 }
 .contact--form {
-    margin: 89px 0 0;
+    margin: 89px 170px 0;
     display: flex;
 }
 .contact--reg--form {
     margin: 0 30px 0 0;
-    width: 570px;
+    width: 100%;
 }
 .contact--reg--form:last-child {
     margin: 0;
