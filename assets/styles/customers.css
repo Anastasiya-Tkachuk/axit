@@ -1,3 +1,8 @@
+.costumers {
+	padding: 104px 0 64px;
+	background-color: #ffffff;
+	min-height: 100vh;
+}
 .customers--title {
     font-family: 'Raleway';
     font-style: normal;
@@ -23,40 +28,42 @@
     margin: 40px auto 79px
 }
 .customers--review {
-    display: flex;
-    justify-content: space-between;
+    margin: 83px 0 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
 }
 .customers--rewiew--answer {
     max-width: 370px;
-    max-height: 180px;
-    background-color: #E2E2E2;
-    border-radius: 10px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #86878B;
-    padding: 40px 15px;
-    text-align: center;
-    position: relative;
+	width: 100%;
 }
-.customers--rewiew--answer::after {
-    content: "";
-    position: absolute;
-    bottom: -30px;
-    left: 70px;
-    border: 20px solid transparent;
-    border-top: 30px solid #E2E2E2; 
+.costumers--comment--container {
+	background-color: #e2e2e2;
+	padding: 38px 15px;
+	border-radius: 10px;
+	position: relative;
+}
+.costumers--comment--container > h5 {
+    font-family: 'Raleway';
+    color: #86878b;
+	text-align: center;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+}
+.costumers--comment--triangle {
+	position: absolute;
+	top: 100%;
+	left: 60px;
 }
 
-.customers--rewiew--answer--contacts {
-    margin: 105px 0 0;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 0 65px 0;
-    }
-.customers--rewiew--answer--contacts--name > h4 {
+.customers--comment--info {
+	margin: 45px 0 0;
+	display: flex;
+	align-items: flex-start;
+}
+.customers--comment--info--name > h4 {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -65,8 +72,8 @@
     text-transform: capitalize;
     color: #000000;
     margin: 0 0 0 30px;
-    }
-    .customers--rewiew--answer--contacts--name > h5 {
+}
+.customers--comment--info--name > h5 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -77,6 +84,6 @@
     text-align: left;
     margin: 0 0 0 30px;
 }
-.customers--rewiew--answer--contacts > img {
-    flex: 0 0 70px 0;
+.customers--comment--info > img {
+	flex: 0 0 70px;
 }
